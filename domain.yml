@@ -1,0 +1,55 @@
+%YAML 1.1
+---
+actions:
+- utter_admissions
+- utter_agree
+- utter_ask_details
+- utter_confirm
+- utter_courses_offered
+- utter_did_that_help
+- utter_fee_structure
+- utter_goodbye
+- utter_greet
+- utter_happy
+- utter_how_can_help
+- utter_placements
+entities:
+- name
+- number
+intents:
+- greet
+- admissions
+- enquiry
+- courses
+- fee_structure
+- goodbye
+- affirm
+- deny
+- placements
+templates:
+  utter_admissions:
+  - text: a.K-CET b.PESSAT c.Management Quota
+  utter_agree:
+  - text: Okay! Just a sec
+  utter_ask_details:
+  - text: Please choose what would you like to enquire about-> 1.Admissions 2.Courses
+      offered 3.Fee Structure 4.Placements
+  utter_confirm:
+  - text: Your appointment has been scheduled.
+  utter_courses_offered:
+  - text: a. Computer Science Engineering b.Electronics and Communication Engineering
+      c.Mechanical Engineering
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_fee_structure:
+  - text: a.K-CET-> 70k b.PESSAT-> 3L c. Management Quota-> 7L
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: Hey! How are you?
+  utter_happy:
+  - text: Great carry on!
+  utter_how_can_help:
+  - text: How can I help you
+  utter_placements:
+  - text: abhvdjvfdueviegi
